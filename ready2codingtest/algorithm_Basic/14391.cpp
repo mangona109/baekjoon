@@ -32,7 +32,6 @@ int R(int n, int m){
 				sum+=tmp;
 				tmp=0;
 				
-
 			}
 		}
 		if(max<sum) max=sum;
