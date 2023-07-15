@@ -18,7 +18,6 @@ void DFS(int num){
 	
 	for(int i=0; i<adj_list[num].size(); i++){
 		if(!visited[adj_list[num][i]]){
-			visited[adj_list[num][i]] = true;
 			DFS(adj_list[num][i]);
 		}
 	}
