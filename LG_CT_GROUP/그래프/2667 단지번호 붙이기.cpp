@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int map[51][51];
+char map[51][51];
 
 int adj_x[4] = {0,0,-1,+1};
 int adj_y[4] = {+1,-1,0,0};
